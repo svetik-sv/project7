@@ -1,5 +1,5 @@
 **Тестирование API с Postman**  
-# Activities    
+# Activities #     
 ## 1. GET /api​/v1​/Activities
 - URL: {{URL_API}}/Activities
 - Ожидаемый результат: вывод всех активностей.
@@ -552,7 +552,7 @@ api-supported-versions: 1.0
 # CoverPhotos #    
 ## 1. GET /api/v1/CoverPhotos
 - URL: {{URL_API}}/CoverPhotos
-- Ожидаемый результат: вывод данных о всех фото.
+- Ожидаемый результат: вывод всех данных о фото.
 - Заголовки запроса:
 ```
 User-Agent: PostmanRuntime/7.32.3
@@ -2876,7 +2876,7 @@ api-supported-versions: 1.0
     }
 }
 ```
-### 4. Users.PUT.{id} ввод в uses_id отрицательного числа.
+### 4. Users.PUT.{id} ввод в users_id отрицательного числа.
 - URL: {{URL_API}}/Users/{{users_id}}
 - Ожидаемый результат: ошибка редактирования пользователя при вводе в users_id отрицательного числа.
 - Заголовки запроса:
